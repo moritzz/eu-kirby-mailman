@@ -1,5 +1,5 @@
 # eu-kirby-mailman
-A seamless Kirby &amp; GNU Mailman integration
+A seamless Kirby &amp; GNU Mailman form integration
 
 *Version:* 0.1
 
