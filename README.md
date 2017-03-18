@@ -22,15 +22,15 @@ The aim was to not use any admin- or user-passwords, but to rely solely one doub
 Move the file to the **Kirby Snippets** folder located in `Kirby ▶ site ▶ snippets`. If it does not exist, create it.
 
 ### 3. Call the snippet
-Like so: `<?php snippet('eu-kirby-social-metatags') ?>`
+Like so: `<?php snippet('eu-kirby-mailman') ?>`
 
 You'll probably want to that within a sidebar or a footer or something.
 
 ## Requirements
 This thing requires some fields:
 
-- ```$site->mailmanurl()```→ url to mailman itself (like so: `https://lists.example.org/cgi-bin/mailman/`)<sup>[1]</sup>
-- ```$site->mailmanlist()```→ name of your mailman list (like so: `info`)<sup>[1]</sup
+- ```$site->mailmanurl()```→ url to mailman itself (like so: `https://lists.example.org/cgi-bin/mailman/`) <sup>[1]</sup>
+- ```$site->mailmanlist()```→ name of your mailman list (like so: `info`) <sup>[1]</sup>
 
 [1] = note that you can also add more than one list, that's done by putting the information on each list into the fields after one antotheer (in the same order in both fields & seperating the values by a semicolon `;`)
 
