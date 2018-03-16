@@ -1,0 +1,37 @@
+title: Mailman List
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Introduction
+    type:  textarea
+
+  list_urls:
+    label: Mailman URLs
+    type: text
+    required: true
+    help: Provide one or more web addresses to your Mailman form separated by semicolons. (E.g. 'https://lists.example.org/cgi-bin/mailman; https://lists.example.com/mailman')
+
+  list_names:
+    label: List Names
+    type: text
+    required: true
+
+
+  message_thanks:
+    label: Thank you message
+    type: textarea
+    
+  mailmanurl:
+    label: Provide a GNU Mailman subscription form?
+    type: text
+    icon: paper-plane
+    help: Domain(s), e.g. 'https://lists.example.org/cgi-bin/mailman;https://lists.example.com/mailman'
+  mailmanlist:
+    label: GNU Mailman Listname(s)
+    type: text
+    icon: paper-plane
+    help: Listname(s), e.g. 'info;newsletter'

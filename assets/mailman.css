@@ -1,0 +1,53 @@
+/* @override 
+	http://zuerinord.local/assets/plugins/mailman/mailman.css */
+  
+  /* @group Form Styles */
+  
+  label, textarea, input {
+    width: 100%;
+    font-size: inherit;
+    margin: 0.5em 0 0.5em 0;
+  }
+  
+  label:after {
+    content: ":";
+    color: inherit;
+  }
+  textarea {
+    height: 12em;
+  }
+  
+  input[type=text]:not(.uniform__potty), input[type=email] {
+    padding: .5em;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    font-weight: 400;
+    border: 2px solid #ddd;
+    background: #fff;
+    display: block;
+    -ms-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    min-height: 2.75em
+  }
+  
+  input[type=submit] {
+    width: inherit;
+    font-size: 0.875em;
+    font-weight: 600;
+    color: #261e66;
+    border-radius: 5em;
+    border: 2px solid #261e66;
+    padding: .4em 1.5em;
+  	background-color: transparent;
+  }
+  
+  /* @end */
+  
+  /* @group Uniforn Overrides */
+  
+  input.uniform__potty {
+    display: none;
+  }
+  
+  /* @end */

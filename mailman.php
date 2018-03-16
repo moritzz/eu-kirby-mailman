@@ -4,8 +4,9 @@
 // = Component Registery =
 // =======================
 
-// $kirby->set('template', 'calendar', __DIR__ . '/templates/calendar.php');
-// $kirby->set('blueprint', 'calendar', __DIR__ . '/blueprints/calendar.php');
+$kirby->set('blueprint', 'mailman', __DIR__ . '/blueprints/mailman.yml');
+$kirby->set('controller', 'mailman', __DIR__ . '/controllers/mailman.php');
+$kirby->set('template', 'mailman', __DIR__ . '/templates/mailman.php');
 $kirby->set('snippet', 'mailman', __DIR__ . '/snippets/mailman.php');
 
 // =======================
